@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/YenkoTools.Common.Cqrs.Behaviors/YenkoTools.Common.Cqrs.Behaviors.csproj" />
+    <Project Path="src/YenkoTools.Common.Cqrs/YenkoTools.Common.Cqrs.csproj" />
+  </Folder>
+</Solution>

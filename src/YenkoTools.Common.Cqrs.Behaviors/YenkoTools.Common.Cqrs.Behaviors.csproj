@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>YenkoTools.Common.Cqrs.Behaviors</PackageId>
+    <Version>1.0.0</Version>
+    <Description>Optional CQRS pipeline behaviors: validation (FluentValidation), performance monitoring, and OpenTelemetry metrics.</Description>
+    <Authors>YenkoTools</Authors>
+    <RepositoryUrl>https://github.com/YenkoTools/DotNetCommon</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YenkoTools.Common.Cqrs\YenkoTools.Common.Cqrs.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+    <PackageReference Include="OpenTelemetry.Api" />
+  </ItemGroup>
+
+</Project>
